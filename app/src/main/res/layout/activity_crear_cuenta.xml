@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@id/imageView5"
+        android:text="Crear cuenta"
+        android:textColor="#184BBE"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        app:srcCompat="@drawable/logo"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="80dp"/>
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="13"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:inputType="textPersonName"
+        android:hint="Nombre completo" />
+
+    <EditText
+        android:id="@+id/correo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nombre"
+        android:layout_centerHorizontal="true"
+        android:ems="13"
+        android:inputType="textEmailAddress"
+        android:hint="Correo"/>
+
+    <EditText
+        android:id="@+id/contraseña"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/correo"
+        android:layout_centerHorizontal="true"
+        android:ems="13"
+        android:inputType="textPassword"
+        android:hint="Contraseña"/>
+
+    <EditText
+        android:id="@+id/confirm_contraseña"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contraseña"
+        android:layout_centerHorizontal="true"
+        android:ems="13"
+        android:inputType="textPassword"
+        android:hint="Confirmar contraseña"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="155dp"
+        android:layout_height="35dp"
+        android:background="@drawable/rounded_corners_blue"
+        android:layout_below="@id/confirm_contraseña"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:text="Crear cuenta"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/confirm_contraseña"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Acepto los términos y condiciones"
+        android:textColor="#878787"
+
+        android:textColorHighlight="#2196F3"
+        android:textSize="10dp" />
+
+</RelativeLayout>

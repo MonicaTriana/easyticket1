@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu_activity">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="97dp"
+        android:layout_height="97dp"
+        app:srcCompat="@drawable/logodos"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="110dp"
+        android:layout_height="28dp"
+        android:layout_below="@id/imageView7"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/rounded_corners"
+        android:text="Mi presupuesto"
+        android:textAllCaps="false"
+        android:textColor="#0794FE"
+        android:textSize="10sp"
+        android:layout_marginStart="10dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="110dp"
+        android:layout_height="28dp"
+        android:layout_below="@id/imageView7"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/rounded_corners"
+        android:text="Mis gastos"
+        android:textAllCaps="false"
+        android:textColor="#0794FE"
+        android:textSize="10sp"
+        android:layout_marginStart="127dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="110dp"
+        android:layout_height="28dp"
+        android:layout_below="@id/imageView7"
+        android:layout_marginLeft="250dp"
+        android:background="@drawable/rounded_corners"
+        android:text="Mis tickets"
+        android:textAllCaps="false"
+        android:textColor="#0794FE"
+        android:textSize="10sp"
+        android:layout_marginStart="243dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_alignParentBottom="true"
+        app:cardBackgroundColor="#1C57DB">
+
+
+
+        <ImageView
+            android:id="@+id/search"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="40dp"
+            app:srcCompat="@drawable/search" />
+
+        <ImageView
+            android:id="@+id/camera"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="100dp"
+            app:srcCompat="@drawable/camera" />
+
+        <ImageView
+            android:id="@+id/home"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="160dp"
+            app:srcCompat="@drawable/home" />
+
+        <ImageView
+            android:id="@+id/config"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/gear"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="223dp"/>
+
+        <ImageView
+            android:id="@+id/user"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="280dp"
+            app:srcCompat="@drawable/user" />
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</RelativeLayout>
