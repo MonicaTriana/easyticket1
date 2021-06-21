@@ -60,39 +60,6 @@
         app:cardBackgroundColor="#1C57DB">
 
 
-
-        <ImageView
-            android:id="@+id/search"
-            android:layout_width="35dp"
-            android:layout_height="35dp"
-            android:layout_marginTop="14dp"
-            android:layout_marginLeft="40dp"
-            app:srcCompat="@drawable/search" />
-
-        <ImageView
-            android:id="@+id/camera"
-            android:layout_width="35dp"
-            android:layout_height="35dp"
-            android:layout_marginTop="14dp"
-            android:layout_marginLeft="100dp"
-            app:srcCompat="@drawable/camera" />
-
-        <ImageView
-            android:id="@+id/home"
-            android:layout_width="35dp"
-            android:layout_height="35dp"
-            android:layout_marginTop="13dp"
-            android:layout_marginLeft="160dp"
-            app:srcCompat="@drawable/home" />
-
-        <ImageView
-            android:id="@+id/config"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            app:srcCompat="@drawable/gear"
-            android:layout_marginTop="15dp"
-            android:layout_marginLeft="223dp"/>
-
         <ImageView
             android:id="@+id/user"
             android:layout_width="38dp"
@@ -100,6 +67,38 @@
             android:layout_marginTop="12dp"
             android:layout_marginLeft="280dp"
             app:srcCompat="@drawable/user" />
+
+        <ImageView
+            android:id="@+id/search"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="40dp"
+            app:srcCompat="@drawable/busqueda" />
+
+        <ImageView
+            android:id="@+id/camera"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="100dp"
+            app:srcCompat="@drawable/camera1" />
+
+        <ImageView
+            android:id="@+id/home"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="160dp"
+            app:srcCompat="@drawable/casa1" />
+
+        <ImageView
+            android:id="@+id/config"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="223dp"
+            app:srcCompat="@drawable/ajustes_vacio" />
     </androidx.cardview.widget.CardView>
 
 
