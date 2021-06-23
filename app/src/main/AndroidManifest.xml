@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
-        <activity android:name=".config_activity"></activity>
+        <activity android:name=".MisTickets_activity"></activity>
+        <activity android:name=".config_activity" />
         <activity android:name=".crear_cuenta_activity" />
         <activity android:name=".principal_activity" />
         <activity android:name=".menu_activity" />

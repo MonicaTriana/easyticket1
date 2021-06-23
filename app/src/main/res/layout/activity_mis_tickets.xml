@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".menu_activity">
+    tools:context=".MisTickets_activity">
 
     <ImageView
         android:id="@+id/imageView7"
@@ -41,7 +41,7 @@
         android:layout_marginStart="127dp" />
 
     <Button
-        android:id="@+id/mis_tickets"
+        android:id="@+id/button6"
         android:layout_width="110dp"
         android:layout_height="28dp"
         android:layout_below="@id/imageView7"
@@ -66,7 +66,7 @@
             android:layout_marginTop="14dp"
             android:layout_marginLeft="60dp"
             app:srcCompat="@drawable/casa1"
-             />
+            />
 
         <ImageView
             android:id="@+id/search"
@@ -75,7 +75,7 @@
             android:layout_marginTop="14dp"
             android:layout_marginLeft="128dp"
             app:srcCompat="@drawable/busqueda"
-             />
+            />
 
         <ImageView
             android:id="@+id/camera"
@@ -85,7 +85,7 @@
             android:layout_marginLeft="197dp"
             app:srcCompat="@drawable/camera1"
 
-             />
+            />
 
         <ImageView
             android:id="@+id/config"
@@ -96,7 +96,9 @@
             app:srcCompat="@drawable/ajustes_vacio" />
     </androidx.cardview.widget.CardView>
 
-
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 
 </RelativeLayout>

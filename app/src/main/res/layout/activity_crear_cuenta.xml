@@ -9,7 +9,7 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="49dp"
         android:layout_toRightOf="@id/imageView5"
         android:text="Crear cuenta"
         android:textColor="#184BBE"
@@ -18,10 +18,10 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="54dp"
-        android:layout_height="54dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         app:srcCompat="@drawable/logo"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="35dp"
         android:layout_marginLeft="80dp"/>
 
     <EditText
@@ -41,6 +41,7 @@
         android:layout_below="@id/nombre"
         android:layout_centerHorizontal="true"
         android:ems="13"
+        android:layout_marginTop="5dp"
         android:inputType="textEmailAddress"
         android:hint="Correo"/>
 
@@ -51,6 +52,7 @@
         android:layout_below="@id/correo"
         android:layout_centerHorizontal="true"
         android:ems="13"
+        android:layout_marginTop="5dp"
         android:inputType="textPassword"
         android:hint="Contraseña"/>
 
@@ -61,6 +63,7 @@
         android:layout_below="@id/contraseña"
         android:layout_centerHorizontal="true"
         android:ems="13"
+        android:layout_marginTop="5dp"
         android:inputType="textPassword"
         android:hint="Confirmar contraseña"/>
 
@@ -70,7 +73,7 @@
         android:layout_height="35dp"
         android:background="@drawable/rounded_corners_blue"
         android:layout_below="@id/confirm_contraseña"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="65dp"
         android:layout_marginLeft="20dp"
         android:text="Crear cuenta"
         android:layout_centerHorizontal="true"
@@ -83,7 +86,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/confirm_contraseña"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
         android:text="Acepto los términos y condiciones"
         android:textColor="#878787"
 

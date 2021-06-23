@@ -2,17 +2,13 @@ package com.example.easyticket1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 
-public class config_activity extends AppCompatActivity {
+public class MisTickets_activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_config);
-
-
+        setContentView(R.layout.activity_mis_tickets);
     }
 }
