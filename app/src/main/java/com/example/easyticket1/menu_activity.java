@@ -24,12 +24,31 @@ public class menu_activity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
+////Boton configuracion
         btn = findViewById(R.id.mis_tickets);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), MisTickets_activity.class);
+                startActivity(intent);
+            }
+        });
+////////Boton camara
+        img = findViewById(R.id.camera);
+        img.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MisTickets_activity.class);
+                startActivity(intent);
+            }
+        });
+
+        /////////Boton home
+        img = findViewById(R.id.home);
+        img.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), menu_activity.class);
                 startActivity(intent);
             }
         });
