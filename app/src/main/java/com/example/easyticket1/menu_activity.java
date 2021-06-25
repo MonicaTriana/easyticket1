@@ -63,5 +63,16 @@ public class menu_activity extends AppCompatActivity {
             }
         });
 
+
+        img = findViewById(R.id.search);
+        img.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), BuscarProducto_activity.class);
+                startActivity(intent);
+            }
+        });
+
+
     }
 }

@@ -53,20 +53,69 @@
         android:id="@+id/editTextTextPersonName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="45dp"
         android:layout_marginLeft="25dp"
         android:ems="8"
         android:inputType="textPersonName"
-        android:text="Ingresar producto" />
+        android:hint="Ingresar producto" />
 
     <Button
         android:id="@+id/button8"
-        android:layout_width="155dp"
+        android:layout_width="145dp"
         android:layout_height="35dp"
         android:background="@drawable/rounded_corners_blue"
-        android:layout_marginTop="38dp"
-        android:layout_marginLeft="230dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="200dp"
         android:textColor="@color/white"
         android:text="Buscar" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_below="@id/editTextTextPersonName"
+        android:text="Resultados:" />
+
+    <ImageView
+        android:id="@+id/alsuper"
+        android:layout_width="60dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/result"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        app:srcCompat="@drawable/alsuper" />
+
+    <TextView
+        android:id="@+id/result1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/result"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@id/alsuper"
+        android:text="Zucaritas Kelloggs 250gr       $63.10" />
+
+    <ImageView
+        android:id="@+id/aurrera"
+        android:layout_width="60dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/alsuper"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        app:srcCompat="@drawable/bodega" />
+
+    <TextView
+        android:id="@+id/result2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/result1"
+        android:layout_marginTop="46dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@id/alsuper"
+        android:text="Zucaritas Kelloggs 250gr       $49.89" />
 
 </RelativeLayout>
