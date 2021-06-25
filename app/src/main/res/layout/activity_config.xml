@@ -40,7 +40,7 @@
         android:layout_marginTop="123dp"
         android:layout_marginLeft="85dp"
         android:text="General"
-        android:textSize="12sp"
+        android:textSize="14sp"
         android:textColor="@color/black"/>
 
     <View
@@ -57,7 +57,7 @@
         android:layout_marginTop="162dp"
         android:layout_marginLeft="85dp"
         android:text="Período"
-        android:textSize="12sp"
+        android:textSize="14sp"
         android:textColor="@color/black"/>
     <View
         android:layout_width="300dp"
@@ -91,7 +91,7 @@
         android:layout_marginTop="204dp"
         android:layout_marginLeft="85dp"
         android:text="Imagen a texto"
-        android:textSize="12sp"
+        android:textSize="14sp"
         android:textColor="@color/black"/>
 
     <ImageView
@@ -109,7 +109,7 @@
         android:layout_marginTop="252dp"
         android:layout_marginLeft="85dp"
         android:text="Escanear"
-        android:textSize="12sp"
+        android:textSize="14sp"
         android:textColor="@color/black"/>
 
     <View
@@ -179,7 +179,7 @@
         android:layout_marginTop="300dp"
         android:layout_marginLeft="85dp"
         android:text="Ayuda y opinión"
-        android:textSize="12sp"
+        android:textSize="14sp"
         android:textColor="@color/black"/>
 
 </RelativeLayout>

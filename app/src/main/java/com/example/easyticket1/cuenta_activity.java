@@ -8,24 +8,15 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
-public class menu_activity extends AppCompatActivity {
-    Button btn;
-    Button presupuesto;
-    ImageView img;
+public class cuenta_activity extends AppCompatActivity {
+Button btn;
+ImageView img;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_menu);
+        setContentView(R.layout.activity_cuenta);
 
-        img = findViewById(R.id.config);
-        img.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), config_activity.class);
-                startActivity(intent);
-            }
-        });
-////Boton configuracion
+        ////Boton configuracion
         btn = findViewById(R.id.mis_tickets);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,15 +44,5 @@ public class menu_activity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-        presupuesto = findViewById(R.id.presupuesto);
-        presupuesto.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),MiPresupuesto_activity.class);
-                startActivity(intent);
-            }
-        });
-
     }
 }

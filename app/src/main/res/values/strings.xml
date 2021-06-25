@@ -30,4 +30,24 @@
     <string name="todooo">TODO</string>
     <string name="_795_82">$795.82</string>
     <string name="hace_3_mesees">HACE 3 MESES</string>
+    <string name="pay_de_queso_chic_1_0x_14_89">PAY DE QUESO CHIC 1.0x $14.89</string>
+    <string name="queso_temazcal_0_29x_30_64">QUESO TEMAZCAL 0.29x $30.64</string>
+    <string name="tomatillo_kg_0_28x_4_93">TOMATILLO KG 0.28x $4.93</string>
+    <string name="jicama_kg_0_70x_8_81">JICAMA KG 0.70x $8.81</string>
+    <string name="alas_picositas_bac_0_28x_86_42">ALAS PICOSITAS BAC 0.28x $86.42</string>
+    <string name="linea">--------------------------------------------------------------</string>
+    <string name="salchicha_salch_0_50x_14_90">SALCHICHA SALCH 0.50x $14.90</string>
+    <string name="milanesa_de_puerco_0_46x_42_46">MILANESA DE PUERCO 0.46x $42.46</string>
+    <string name="pasta_dental_colg_1_0x_10_46">PASTA DENTAL COLG 1.0x $10.46</string>
+    <string name="chile_en_polvo_1_0x_10_46">CHILE EN POLVO 1.0x $10.46</string>
+    <string name="total_de_su_compra_390_51">TOTAL DE SU COMPRA $390.51</string>
+    <string name="chicharron_pella_0_17x_26_44">CHICHARRON PELLA 0.17x $26.44</string>
+    <string name="melon_kg_1_39x_11_70">MELON KG 1.39x $11.70</string>
+    <string name="insecticida_oko_ca_1_0x_54_53">INSECTICIDA OKO CA 1.0x $54.53</string>
+    <string name="general">General</string>
+    <string name="monica_rt_outlook_com">monica_rt@outlook.com</string>
+    <string name="cambiar_cuenta">Cambiar cuenta</string>
+    <string name="cambiar_contrase_a">Cambiar contraseña</string>
+    <string name="cerrar_seci_n">Cerrar sesión</string>
+    <string name="monica">Monica</string>
 </resources>

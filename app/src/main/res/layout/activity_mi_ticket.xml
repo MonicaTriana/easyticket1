@@ -20,7 +20,7 @@
         tools:ignore="ContentDescription" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/presupuesto"
         android:layout_width="110dp"
         android:layout_height="28dp"
         android:layout_below="@id/imageView7"
@@ -162,7 +162,7 @@
         android:layout_height="360dp"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/cardsoriana"
-        app:cardBackgroundColor="#D8D8D8"
+        app:cardBackgroundColor="#E1E1E1"
         >
 
 
@@ -172,22 +172,141 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="45dp"
             android:layout_marginTop="5dp"
-            android:text="PAY DE QUESO CHIC      1.0x      $14.89" />
+            android:text="@string/pay_de_queso_chic_1_0x_14_89"
+            android:layout_marginStart="45dp" />
         <TextView
             android:id="@+id/textView12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="45dp"
             android:layout_marginTop="22dp"
-            android:text="CHILE EN POLVO            1.0x       $10.46" />
+            android:text="@string/chile_en_polvo_1_0x_10_46"
+            android:layout_marginStart="45dp" />
         <TextView
             android:id="@+id/textView13"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="45dp"
             android:layout_marginTop="40dp"
-            android:text="CHICHARRON PELLA     0.17x    $26.44" />
+            android:text="@string/chicharron_pella_0_17x_26_44"
+            android:layout_marginStart="45dp" />
 
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="59dp"
+            android:text="@string/jicama_kg_0_70x_8_81"
+            android:layout_marginStart="45dp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="76dp"
+            android:text="@string/melon_kg_1_39x_11_70"
+            android:layout_marginStart="45dp" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="95dp"
+            android:text="@string/tomatillo_kg_0_28x_4_93"
+            android:layout_marginStart="45dp" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="113dp"
+            android:text="@string/queso_temazcal_0_29x_30_64"
+            android:layout_marginStart="45dp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="130dp"
+            android:text="DESHEBRADA DE RES    0.28x     $48.93"
+            android:layout_marginStart="45dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="148dp"
+            android:text="@string/alas_picositas_bac_0_28x_86_42"
+            android:layout_marginStart="45dp" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="165dp"
+            android:text="@string/insecticida_oko_ca_1_0x_54_53"
+            android:layout_marginStart="45dp" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="183dp"
+            android:text="@string/chile_en_polvo_1_0x_10_46"
+            android:layout_marginStart="45dp" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="200dp"
+            android:text="@string/pasta_dental_colg_1_0x_10_46"
+            android:layout_marginStart="45dp" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="220dp"
+            android:text="@string/milanesa_de_puerco_0_46x_42_46"
+            android:layout_marginStart="45dp" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="240dp"
+            android:text="@string/salchicha_salch_0_50x_14_90"
+            android:layout_marginStart="45dp" />
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="265dp"
+            android:text="@string/linea" />
+
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="285dp"
+            android:text="@string/total_de_su_compra_390_51"
+            android:layout_marginStart="45dp" />
     </androidx.cardview.widget.CardView>
 
 
