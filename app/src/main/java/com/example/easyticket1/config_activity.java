@@ -16,7 +16,7 @@ ImageView img;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_config);
 
-        txt = findViewById(R.id.general);
+        txt = findViewById(R.id.txtgeneral);
         txt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -48,6 +48,15 @@ ImageView img;
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), BuscarProducto_activity.class);
+                startActivity(intent);
+            }
+        });
+
+        img = findViewById(R.id.camera);
+        img.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), escanear_activity.class);
                 startActivity(intent);
             }
         });

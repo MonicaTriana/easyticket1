@@ -34,5 +34,35 @@ CardView cardv;
                 startActivity(intent);
             }
         });
+        img = findViewById(R.id.search);
+        img.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), BuscarProducto_activity.class);
+                startActivity(intent);
+            }
+        });
+
+
+        img = findViewById(R.id.camera);
+        img.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), escanear_activity.class);
+                startActivity(intent);
+            }
+        });
+
+        img = findViewById(R.id.config);
+        img.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), config_activity.class);
+                startActivity(intent);
+            }
+        });
+
+
+
     }
 }

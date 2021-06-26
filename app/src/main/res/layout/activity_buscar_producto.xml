@@ -19,7 +19,7 @@
             android:layout_marginTop="14dp"
             android:layout_marginLeft="60dp"
             app:srcCompat="@drawable/casablanca"
-            />
+            android:layout_marginStart="60dp" />
 
         <ImageView
             android:id="@+id/search"
@@ -28,7 +28,7 @@
             android:layout_marginTop="14dp"
             android:layout_marginLeft="128dp"
             app:srcCompat="@drawable/busqueda"
-            />
+            android:layout_marginStart="128dp" />
 
         <ImageView
             android:id="@+id/camera"
@@ -38,7 +38,7 @@
             android:layout_marginLeft="197dp"
             app:srcCompat="@drawable/camera1"
 
-            />
+            android:layout_marginStart="197dp" />
 
         <ImageView
             android:id="@+id/config"
@@ -46,7 +46,8 @@
             android:layout_height="28dp"
             android:layout_marginTop="15dp"
             android:layout_marginLeft="263dp"
-            app:srcCompat="@drawable/ajustes_vacio" />
+            app:srcCompat="@drawable/ajustes_vacio"
+            android:layout_marginStart="263dp" />
     </androidx.cardview.widget.CardView>
 
     <EditText
@@ -57,7 +58,8 @@
         android:layout_marginLeft="25dp"
         android:ems="8"
         android:inputType="textPersonName"
-        android:hint="Ingresar producto" />
+        android:hint="Ingresar producto"
+        android:layout_marginStart="25dp" />
 
     <Button
         android:id="@+id/button8"
@@ -67,7 +69,8 @@
         android:layout_marginTop="50dp"
         android:layout_marginLeft="200dp"
         android:textColor="@color/white"
-        android:text="Buscar" />
+        android:text="Buscar"
+        android:layout_marginStart="200dp" />
 
     <TextView
         android:id="@+id/result"
@@ -76,7 +79,8 @@
         android:layout_marginTop="25dp"
         android:layout_marginLeft="25dp"
         android:layout_below="@id/editTextTextPersonName"
-        android:text="Resultados:" />
+        android:text="Resultados:"
+        android:layout_marginStart="25dp" />
 
     <ImageView
         android:id="@+id/alsuper"
@@ -85,7 +89,8 @@
         android:layout_below="@id/result"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="25dp"
-        app:srcCompat="@drawable/alsuper" />
+        app:srcCompat="@drawable/alsuper"
+        android:layout_marginStart="25dp" />
 
     <TextView
         android:id="@+id/result1"
@@ -96,7 +101,9 @@
         android:layout_marginLeft="25dp"
         android:textColor="@color/black"
         android:layout_toRightOf="@id/alsuper"
-        android:text="Zucaritas Kelloggs 250gr       $63.10" />
+        android:text="Zucaritas Kelloggs 250gr       $63.10"
+        android:layout_toEndOf="@id/alsuper"
+        android:layout_marginStart="25dp" />
 
     <ImageView
         android:id="@+id/aurrera"
@@ -105,7 +112,9 @@
         android:layout_below="@id/alsuper"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="25dp"
-        app:srcCompat="@drawable/bodega" />
+        app:srcCompat="@drawable/bodega"
+        android:contentDescription="TODO"
+        android:layout_marginStart="25dp" />
 
     <TextView
         android:id="@+id/result2"
@@ -116,6 +125,8 @@
         android:layout_marginLeft="25dp"
         android:textColor="@color/black"
         android:layout_toRightOf="@id/alsuper"
-        android:text="Zucaritas Kelloggs 250gr       $49.89" />
+        android:text="Zucaritas Kelloggs 250gr       $49.89"
+        android:layout_marginStart="25dp"
+        android:layout_toEndOf="@id/alsuper" />
 
 </RelativeLayout>

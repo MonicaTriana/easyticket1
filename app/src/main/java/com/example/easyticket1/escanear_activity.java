@@ -4,34 +4,27 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Environment;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
-public class menu_activity extends AppCompatActivity {
-    Button btn;
-    Button presupuesto;
-    ImageView img;
+import java.io.File;
+
+public class escanear_activity extends AppCompatActivity {
+ImageView img;
+Button btn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_menu);
+        setContentView(R.layout.activity_escanear);
 
-////Boton configuracion
-        btn = findViewById(R.id.mis_tickets);
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), MisTickets_activity.class);
-                startActivity(intent);
-            }
-        });
-////////Boton camara
+
         img = findViewById(R.id.camera);
         img.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), escanear_activity.class);
+                Intent intent = new Intent(getApplicationContext(), MisTickets_activity.class);
                 startActivity(intent);
             }
         });
@@ -64,18 +57,22 @@ public class menu_activity extends AppCompatActivity {
         });
 
 
-        presupuesto = findViewById(R.id.presupuesto);
-        presupuesto.setOnClickListener(new View.OnClickListener() {
+        btn = findViewById(R.id.btnimagen);
+        btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),MiPresupuesto_activity.class);
+                Intent intent = new Intent(getApplicationContext(), TicketEscaneado_activity.class);
                 startActivity(intent);
             }
         });
 
-
-
-
-
+        btn = findViewById(R.id.btntexto);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), TicketTexto_activity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

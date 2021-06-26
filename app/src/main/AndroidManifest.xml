@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.easyticket1">
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +13,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
-        <activity android:name=".BuscarProducto_activity"></activity>
+        <activity android:name=".TicketTexto_activity"></activity>
+        <activity android:name=".TicketEscaneado_activity" />
+        <activity android:name=".escanear_activity" />
+        <activity android:name=".BuscarProducto_activity" />
         <activity android:name=".cuenta_activity" />
         <activity android:name=".MiPresupuesto_activity" />
         <activity android:name=".MiTicket_activity" />
