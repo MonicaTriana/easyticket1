@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "874732238244",
+    "project_id": "easyticket-58b0a",
+    "storage_bucket": "easyticket-58b0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874732238244:android:71e38e1227b2f084e27d31",
+        "android_client_info": {
+          "package_name": "com.example.easyticket1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "874732238244-ujhj41le88tmgsvr3e7t5k2o0rauffe8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKeJHa_gi5inHIfMYuDo5Si8fEXlEbW-I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "874732238244-ujhj41le88tmgsvr3e7t5k2o0rauffe8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

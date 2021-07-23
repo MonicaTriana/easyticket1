@@ -35,7 +35,7 @@
         android:hint="Nombre completo" />
 
     <EditText
-        android:id="@+id/correo"
+        android:id="@+id/etEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/nombre"
@@ -43,13 +43,13 @@
         android:ems="13"
         android:layout_marginTop="5dp"
         android:inputType="textEmailAddress"
-        android:hint="Correo"/>
+        android:hint="Correo" />
 
     <EditText
-        android:id="@+id/contraseña"
+        android:id="@+id/etPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/correo"
+        android:layout_below="@id/etEmail"
         android:layout_centerHorizontal="true"
         android:ems="13"
         android:layout_marginTop="5dp"
@@ -60,7 +60,7 @@
         android:id="@+id/confirm_contraseña"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/contraseña"
+        android:layout_below="@id/etPassword"
         android:layout_centerHorizontal="true"
         android:ems="13"
         android:layout_marginTop="5dp"
